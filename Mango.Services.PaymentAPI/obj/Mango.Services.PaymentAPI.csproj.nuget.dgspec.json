@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\Mango.Services.PaymentAPI\\Mango.Services.PaymentAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\Mango.MessageBus\\Mango.MessageBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\Mango.MessageBus\\Mango.MessageBus.csproj",
+        "projectName": "Mango.MessageBus",
+        "projectPath": "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\Mango.MessageBus\\Mango.MessageBus.csproj",
+        "packagesPath": "C:\\Users\\Gaurav Yadav\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\Mango.MessageBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gaurav Yadav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.2.0-beta.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\Mango.Services.PaymentAPI\\Mango.Services.PaymentAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\Mango.Services.PaymentAPI\\Mango.Services.PaymentAPI.csproj",
+        "projectName": "Mango.Services.PaymentAPI",
+        "projectPath": "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\Mango.Services.PaymentAPI\\Mango.Services.PaymentAPI.csproj",
+        "packagesPath": "C:\\Users\\Gaurav Yadav\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\Mango.Services.PaymentAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gaurav Yadav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\Mango.MessageBus\\Mango.MessageBus.csproj": {
+                "projectPath": "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\Mango.MessageBus\\Mango.MessageBus.csproj"
+              },
+              "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\PaymentProcessor\\PaymentProcessor.csproj": {
+                "projectPath": "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\PaymentProcessor\\PaymentProcessor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\PaymentProcessor\\PaymentProcessor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\PaymentProcessor\\PaymentProcessor.csproj",
+        "projectName": "PaymentProcessor",
+        "projectPath": "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\PaymentProcessor\\PaymentProcessor.csproj",
+        "packagesPath": "C:\\Users\\Gaurav Yadav\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gaurav Yadav\\Desktop\\Mango\\PaymentProcessor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gaurav Yadav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

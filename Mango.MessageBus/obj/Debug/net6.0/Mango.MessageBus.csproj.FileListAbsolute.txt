@@ -1,0 +1,12 @@
+C:\Users\Gaurav Yadav\Desktop\Mango\Mango.MessageBus\bin\Debug\net6.0\Mango.MessageBus.deps.json
+C:\Users\Gaurav Yadav\Desktop\Mango\Mango.MessageBus\bin\Debug\net6.0\Mango.MessageBus.dll
+C:\Users\Gaurav Yadav\Desktop\Mango\Mango.MessageBus\bin\Debug\net6.0\Mango.MessageBus.pdb
+C:\Users\Gaurav Yadav\Desktop\Mango\Mango.MessageBus\obj\Debug\net6.0\Mango.MessageBus.csproj.AssemblyReference.cache
+C:\Users\Gaurav Yadav\Desktop\Mango\Mango.MessageBus\obj\Debug\net6.0\Mango.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gaurav Yadav\Desktop\Mango\Mango.MessageBus\obj\Debug\net6.0\Mango.MessageBus.AssemblyInfoInputs.cache
+C:\Users\Gaurav Yadav\Desktop\Mango\Mango.MessageBus\obj\Debug\net6.0\Mango.MessageBus.AssemblyInfo.cs
+C:\Users\Gaurav Yadav\Desktop\Mango\Mango.MessageBus\obj\Debug\net6.0\Mango.MessageBus.csproj.CoreCompileInputs.cache
+C:\Users\Gaurav Yadav\Desktop\Mango\Mango.MessageBus\obj\Debug\net6.0\Mango.MessageBus.dll
+C:\Users\Gaurav Yadav\Desktop\Mango\Mango.MessageBus\obj\Debug\net6.0\refint\Mango.MessageBus.dll
+C:\Users\Gaurav Yadav\Desktop\Mango\Mango.MessageBus\obj\Debug\net6.0\Mango.MessageBus.pdb
+C:\Users\Gaurav Yadav\Desktop\Mango\Mango.MessageBus\obj\Debug\net6.0\ref\Mango.MessageBus.dll
